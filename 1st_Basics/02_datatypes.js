@@ -46,5 +46,14 @@ console.log('hey nobbie')
 
   console.log(typeof undefined); //undefined is a type
   console.log(typeof null);  //here it shows object it's an error in JavaScript
+
+
+ //another ways to console in JavaScript 
+
+  console.group("Best Programming languages");
+  console.log("JavaScript");
+  console.log("Java");
+  console.log("Python");
+  console.log("C-Sharp");
   
 
