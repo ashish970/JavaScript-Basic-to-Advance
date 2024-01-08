@@ -1,2 +1,2 @@
 # JavaScript-Basic-to-Advance
-Acode repo for Javascript series from Basic to Advance
+A code repo for Javascript series from Basic to Advance
