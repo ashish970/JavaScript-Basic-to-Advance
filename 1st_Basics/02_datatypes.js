@@ -48,6 +48,8 @@ console.log('hey nobbie')
   console.log(typeof null);  //here it shows object it's an error in JavaScript
 
 
+typeof ("ashish")
+
  //another ways to console in JavaScript 
 
   console.group("Best Programming languages");
