@@ -22,6 +22,7 @@
 //"" => false
 //"Ashish" => true
 
+<<<<<<< HEAD
 //let someNumber = 33
 //let stringNumber = String(someNumber)
 // console.log(stringNumber);
@@ -96,3 +97,9 @@ const d = ++c;
 
 
 
+=======
+let someNumber = 33
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
+>>>>>>> origin/main
