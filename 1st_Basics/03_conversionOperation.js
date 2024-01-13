@@ -91,10 +91,7 @@ const d = ++c;
 //console.log(d);
 
 
-
-
-
-//this is all about conversionOperation in JavaScript
+//this is all about conversionOperation in JavaScript and some operations
 
 
 
