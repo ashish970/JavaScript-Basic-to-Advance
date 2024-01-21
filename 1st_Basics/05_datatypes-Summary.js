@@ -65,10 +65,43 @@ let myFunction = function(){
 // console.log(typeof scoreValue);
 // console.log(typeof myFunction);
 
-console.log(typeof String);
-console.log(typeof Number);
-console.log(typeof Boolean);
-console.log(typeof Null);
-console.log(typeof undefined);
-console.log(typeof symbol);
-console.log(typeof BigInt);
+// console.log(typeof String);
+// console.log(typeof Number);
+// console.log(typeof Boolean);
+// console.log(typeof Null);
+// console.log(typeof undefined);
+// console.log(typeof symbol);
+// console.log(typeof BigInt);
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//basics of stack and heap memory summary in js
+// Stack && heap memory
+
+//stack ke andarr value ki copy milti hai but heap ke andarr value ki reference milti hai
+
+//stack uses(primitive datatypes), Heap used (non-primitive)
+
+//stack example
+let myYoutubeName = "TechTalker"
+
+let anotherName = myYoutubeName
+anotherName = "chai aur code"
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+//heap example
+let userOne = {
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+ userTwo.email = "ashish@gmail.com"
+ userTwo.upi ="ashish@ylb"
+console.log(userOne.email);
+console.log(userTwo.email);
+console.log(userOne.upi);
